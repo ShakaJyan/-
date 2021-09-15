@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+	<!-- statusbar color 조정 colorzilla.com -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width = device-width, initial-scale=1">
+	<meta name="author" content="Shakajyan">
+	<meta name="keywords" content="영잘알 테스트">
+	<meta name="description" content="영잘알 테스트">
+	
+	<!-- sns share -->
+	<meta property="og:url" content="https://shakajyan.netlify.app" />
+	<meta property="og:title" content="영잘알 테스트" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="img/share.gif" />
+	<meta property="og:description" content="영화에대해 얼마나 잘아는지 테스트" />
+	
+	<!-- icon-icons에 있음 -->
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon.ico" />
+	<title>영잘알 테스트</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel ="stylesheet" href ="../css/default.css">
+	<link rel ="stylesheet" href ="../css/result.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+</head>
+<body>
+
+		<section id ="shareResult" class ="mx-auto mt-5 py-5 px-3">
+			<h1>당신의 결과는?</h1>
+			<div class="resultname">
+				<p>딱 중간 정도군요</p>
+			</div>
+			<div id= "resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+				<img src="/img/image-2.gif" alt="0" class="img-fluid">
+			</div>
+			<div class= "resultDesc">
+				<p>'영화에 관심을 더더더더더더더욱 가져 봅시다.'</p>
+			</div>
+			<script type="text/javascript">
+				function moveHome(){
+					location.href="/index.html";
+				}
+			</script>
+		<button type="button" class= "gohome mt-3 py-2 px-3" onclick ="js:moveHome()">나도참여하기</button>
+		</section>
+</body>
+</html>
